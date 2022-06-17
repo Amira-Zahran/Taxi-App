@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0631BF8E285C3E470010A033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BF8D285C3E470010A033 /* AppDelegate.swift */; };
+		0631BF90285C3E470010A033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BF8F285C3E470010A033 /* SceneDelegate.swift */; };
+		0631BF92285C3E470010A033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BF91285C3E470010A033 /* ViewController.swift */; };
+		0631BF95285C3E470010A033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0631BF93285C3E470010A033 /* Main.storyboard */; };
+		0631BF98285C3E470010A033 /* Customer_Taxi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0631BF96285C3E470010A033 /* Customer_Taxi.xcdatamodeld */; };
+		0631BF9A285C3E4C0010A033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0631BF99285C3E4C0010A033 /* Assets.xcassets */; };
+		0631BF9D285C3E4C0010A033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0631BF9B285C3E4C0010A033 /* LaunchScreen.storyboard */; };
+		0631BFA8285C3E4D0010A033 /* Customer_TaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BFA7285C3E4D0010A033 /* Customer_TaxiTests.swift */; };
+		0631BFB2285C3E4D0010A033 /* Customer_TaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BFB1285C3E4D0010A033 /* Customer_TaxiUITests.swift */; };
+		0631BFB4285C3E4D0010A033 /* Customer_TaxiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631BFB3285C3E4D0010A033 /* Customer_TaxiUITestsLaunchTests.swift */; };
+		0631C001285C4B090010A033 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0631C000285C4B090010A033 /* Lottie */; };
+		0631C004285C4D3E0010A033 /* man-waiting-car.json in Resources */ = {isa = PBXBuildFile; fileRef = 0631C003285C4D3E0010A033 /* man-waiting-car.json */; };
+		0631C006285C55870010A033 /* get_started.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C005285C55870010A033 /* get_started.swift */; };
+		0631C008285C55C50010A033 /* sms_code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C007285C55C50010A033 /* sms_code.swift */; };
+		0631C00B285C5FF20010A033 /* OnboardingCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C00A285C5FF20010A033 /* OnboardingCV.swift */; };
+		0631C00D285C60690010A033 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C00C285C60690010A033 /* OnboardingCollectionViewCell.swift */; };
+		0631C00F285C609C0010A033 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0631C00E285C609C0010A033 /* OnboardingSlide.swift */; };
+		6D35B916556CB44A06E5F1B3 /* Pods_Customer_TaxiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A00811178EECDAE007DB763 /* Pods_Customer_TaxiTests.framework */; };
+		7D289F0882F47A625DC6C562 /* Pods_Customer_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E30B2DAD85DCBBE845AFA /* Pods_Customer_Taxi.framework */; };
+		BA88F8F37B4694F14CFE48EA /* Pods_Customer_Taxi_Customer_TaxiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A888543DBB3BDC225ECC9416 /* Pods_Customer_Taxi_Customer_TaxiUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0631BFA4285C3E4D0010A033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0631BF82285C3E470010A033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0631BF89285C3E470010A033;
+			remoteInfo = "Customer-Taxi";
+		};
+		0631BFAE285C3E4D0010A033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0631BF82285C3E470010A033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0631BF89285C3E470010A033;
+			remoteInfo = "Customer-Taxi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0631BF8A285C3E470010A033 /* Customer-Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customer-Taxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0631BF8D285C3E470010A033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0631BF8F285C3E470010A033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0631BF91285C3E470010A033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0631BF94285C3E470010A033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0631BF97285C3E470010A033 /* Customer_Taxi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Customer_Taxi.xcdatamodel; sourceTree = "<group>"; };
+		0631BF99285C3E4C0010A033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0631BF9C285C3E4C0010A033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0631BF9E285C3E4C0010A033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0631BFA3285C3E4D0010A033 /* Customer-TaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Customer-TaxiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0631BFA7285C3E4D0010A033 /* Customer_TaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer_TaxiTests.swift; sourceTree = "<group>"; };
+		0631BFAD285C3E4D0010A033 /* Customer-TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Customer-TaxiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0631BFB1285C3E4D0010A033 /* Customer_TaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer_TaxiUITests.swift; sourceTree = "<group>"; };
+		0631BFB3285C3E4D0010A033 /* Customer_TaxiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer_TaxiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0631C003285C4D3E0010A033 /* man-waiting-car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "man-waiting-car.json"; path = "../../../../Downloads/man-waiting-car.json"; sourceTree = "<group>"; };
+		0631C005285C55870010A033 /* get_started.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_started.swift; sourceTree = "<group>"; };
+		0631C007285C55C50010A033 /* sms_code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sms_code.swift; sourceTree = "<group>"; };
+		0631C00A285C5FF20010A033 /* OnboardingCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCV.swift; sourceTree = "<group>"; };
+		0631C00C285C60690010A033 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		0631C00E285C609C0010A033 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		5A035128D42FA20016DC9AA1 /* Pods-Customer-TaxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-TaxiTests.release.xcconfig"; path = "Target Support Files/Pods-Customer-TaxiTests/Pods-Customer-TaxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A00811178EECDAE007DB763 /* Pods_Customer_TaxiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Customer_TaxiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAFCE9DCC51CA9EB3A099F6 /* Pods-Customer-Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-Taxi.release.xcconfig"; path = "Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi.release.xcconfig"; sourceTree = "<group>"; };
+		A888543DBB3BDC225ECC9416 /* Pods_Customer_Taxi_Customer_TaxiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Customer_Taxi_Customer_TaxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D67A1086800957BE960E11 /* Pods-Customer-Taxi-Customer-TaxiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-Taxi-Customer-TaxiUITests.release.xcconfig"; path = "Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6FD05E29E93A7535200AE43 /* Pods-Customer-Taxi-Customer-TaxiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-Taxi-Customer-TaxiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE54AEE28752A4B62349DBD /* Pods-Customer-TaxiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-TaxiTests.debug.xcconfig"; path = "Target Support Files/Pods-Customer-TaxiTests/Pods-Customer-TaxiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F38788F0733DA877EF7B15 /* Pods-Customer-Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer-Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi.debug.xcconfig"; sourceTree = "<group>"; };
+		FE7E30B2DAD85DCBBE845AFA /* Pods_Customer_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Customer_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0631BF87285C3E470010A033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631C001285C4B090010A033 /* Lottie in Frameworks */,
+				7D289F0882F47A625DC6C562 /* Pods_Customer_Taxi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BFA0285C3E4D0010A033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D35B916556CB44A06E5F1B3 /* Pods_Customer_TaxiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BFAA285C3E4D0010A033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA88F8F37B4694F14CFE48EA /* Pods_Customer_Taxi_Customer_TaxiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0631BF81285C3E470010A033 = {
+			isa = PBXGroup;
+			children = (
+				0631BF8C285C3E470010A033 /* Customer-Taxi */,
+				0631BFA6285C3E4D0010A033 /* Customer-TaxiTests */,
+				0631BFB0285C3E4D0010A033 /* Customer-TaxiUITests */,
+				0631BF8B285C3E470010A033 /* Products */,
+				A1CDC78A677AC52764C03C0A /* Pods */,
+				1FFDB169B08C6DBC0D51A54A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0631BF8B285C3E470010A033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0631BF8A285C3E470010A033 /* Customer-Taxi.app */,
+				0631BFA3285C3E4D0010A033 /* Customer-TaxiTests.xctest */,
+				0631BFAD285C3E4D0010A033 /* Customer-TaxiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0631BF8C285C3E470010A033 /* Customer-Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				0631C009285C5FCC0010A033 /* Onbording */,
+				0631C002285C4C640010A033 /* Assets */,
+				0631BF8D285C3E470010A033 /* AppDelegate.swift */,
+				0631BF8F285C3E470010A033 /* SceneDelegate.swift */,
+				0631BF91285C3E470010A033 /* ViewController.swift */,
+				0631C005285C55870010A033 /* get_started.swift */,
+				0631C007285C55C50010A033 /* sms_code.swift */,
+				0631BF93285C3E470010A033 /* Main.storyboard */,
+				0631BF99285C3E4C0010A033 /* Assets.xcassets */,
+				0631BF9B285C3E4C0010A033 /* LaunchScreen.storyboard */,
+				0631BF9E285C3E4C0010A033 /* Info.plist */,
+				0631BF96285C3E470010A033 /* Customer_Taxi.xcdatamodeld */,
+			);
+			path = "Customer-Taxi";
+			sourceTree = "<group>";
+		};
+		0631BFA6285C3E4D0010A033 /* Customer-TaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0631BFA7285C3E4D0010A033 /* Customer_TaxiTests.swift */,
+			);
+			path = "Customer-TaxiTests";
+			sourceTree = "<group>";
+		};
+		0631BFB0285C3E4D0010A033 /* Customer-TaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0631BFB1285C3E4D0010A033 /* Customer_TaxiUITests.swift */,
+				0631BFB3285C3E4D0010A033 /* Customer_TaxiUITestsLaunchTests.swift */,
+			);
+			path = "Customer-TaxiUITests";
+			sourceTree = "<group>";
+		};
+		0631C002285C4C640010A033 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0631C003285C4D3E0010A033 /* man-waiting-car.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0631C009285C5FCC0010A033 /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				0631C00A285C5FF20010A033 /* OnboardingCV.swift */,
+				0631C00C285C60690010A033 /* OnboardingCollectionViewCell.swift */,
+				0631C00E285C609C0010A033 /* OnboardingSlide.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+		1FFDB169B08C6DBC0D51A54A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7E30B2DAD85DCBBE845AFA /* Pods_Customer_Taxi.framework */,
+				A888543DBB3BDC225ECC9416 /* Pods_Customer_Taxi_Customer_TaxiUITests.framework */,
+				8A00811178EECDAE007DB763 /* Pods_Customer_TaxiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CDC78A677AC52764C03C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F38788F0733DA877EF7B15 /* Pods-Customer-Taxi.debug.xcconfig */,
+				9EAFCE9DCC51CA9EB3A099F6 /* Pods-Customer-Taxi.release.xcconfig */,
+				D6FD05E29E93A7535200AE43 /* Pods-Customer-Taxi-Customer-TaxiUITests.debug.xcconfig */,
+				D2D67A1086800957BE960E11 /* Pods-Customer-Taxi-Customer-TaxiUITests.release.xcconfig */,
+				DCE54AEE28752A4B62349DBD /* Pods-Customer-TaxiTests.debug.xcconfig */,
+				5A035128D42FA20016DC9AA1 /* Pods-Customer-TaxiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0631BF89285C3E470010A033 /* Customer-Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0631BFB7285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-Taxi" */;
+			buildPhases = (
+				6D26137884E50E8A43E1B4F0 /* [CP] Check Pods Manifest.lock */,
+				0631BF86285C3E470010A033 /* Sources */,
+				0631BF87285C3E470010A033 /* Frameworks */,
+				0631BF88285C3E470010A033 /* Resources */,
+				DF87BB22CA9CE74CCAAE5E4E /* [CP] Embed Pods Frameworks */,
+				A82210EF19BD4CDFE3530C27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Customer-Taxi";
+			packageProductDependencies = (
+				0631C000285C4B090010A033 /* Lottie */,
+			);
+			productName = "Customer-Taxi";
+			productReference = 0631BF8A285C3E470010A033 /* Customer-Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0631BFA2285C3E4D0010A033 /* Customer-TaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0631BFBA285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-TaxiTests" */;
+			buildPhases = (
+				86DBBDDDB79883A91C0E3EFC /* [CP] Check Pods Manifest.lock */,
+				0631BF9F285C3E4D0010A033 /* Sources */,
+				0631BFA0285C3E4D0010A033 /* Frameworks */,
+				0631BFA1285C3E4D0010A033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0631BFA5285C3E4D0010A033 /* PBXTargetDependency */,
+			);
+			name = "Customer-TaxiTests";
+			productName = "Customer-TaxiTests";
+			productReference = 0631BFA3285C3E4D0010A033 /* Customer-TaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0631BFAC285C3E4D0010A033 /* Customer-TaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0631BFBD285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-TaxiUITests" */;
+			buildPhases = (
+				CF86C185C6DFF678D2484AD0 /* [CP] Check Pods Manifest.lock */,
+				0631BFA9285C3E4D0010A033 /* Sources */,
+				0631BFAA285C3E4D0010A033 /* Frameworks */,
+				0631BFAB285C3E4D0010A033 /* Resources */,
+				7298D2CD0721F470864315B7 /* [CP] Embed Pods Frameworks */,
+				4A68B25C1F353A458B5359D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0631BFAF285C3E4D0010A033 /* PBXTargetDependency */,
+			);
+			name = "Customer-TaxiUITests";
+			productName = "Customer-TaxiUITests";
+			productReference = 0631BFAD285C3E4D0010A033 /* Customer-TaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0631BF82285C3E470010A033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0631BF89285C3E470010A033 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0631BFA2285C3E4D0010A033 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0631BF89285C3E470010A033;
+					};
+					0631BFAC285C3E4D0010A033 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0631BF89285C3E470010A033;
+					};
+				};
+			};
+			buildConfigurationList = 0631BF85285C3E470010A033 /* Build configuration list for PBXProject "Customer-Taxi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0631BF81285C3E470010A033;
+			packageReferences = (
+				0631BFFF285C4B090010A033 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 0631BF8B285C3E470010A033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0631BF89285C3E470010A033 /* Customer-Taxi */,
+				0631BFA2285C3E4D0010A033 /* Customer-TaxiTests */,
+				0631BFAC285C3E4D0010A033 /* Customer-TaxiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0631BF88285C3E470010A033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631BF9D285C3E4C0010A033 /* LaunchScreen.storyboard in Resources */,
+				0631BF9A285C3E4C0010A033 /* Assets.xcassets in Resources */,
+				0631BF95285C3E470010A033 /* Main.storyboard in Resources */,
+				0631C004285C4D3E0010A033 /* man-waiting-car.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BFA1285C3E4D0010A033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BFAB285C3E4D0010A033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A68B25C1F353A458B5359D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D26137884E50E8A43E1B4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Customer-Taxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7298D2CD0721F470864315B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi-Customer-TaxiUITests/Pods-Customer-Taxi-Customer-TaxiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DBBDDDB79883A91C0E3EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Customer-TaxiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82210EF19BD4CDFE3530C27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF86C185C6DFF678D2484AD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Customer-Taxi-Customer-TaxiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF87BB22CA9CE74CCAAE5E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Customer-Taxi/Pods-Customer-Taxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0631BF86285C3E470010A033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631C008285C55C50010A033 /* sms_code.swift in Sources */,
+				0631BF92285C3E470010A033 /* ViewController.swift in Sources */,
+				0631BF98285C3E470010A033 /* Customer_Taxi.xcdatamodeld in Sources */,
+				0631C00D285C60690010A033 /* OnboardingCollectionViewCell.swift in Sources */,
+				0631C006285C55870010A033 /* get_started.swift in Sources */,
+				0631C00B285C5FF20010A033 /* OnboardingCV.swift in Sources */,
+				0631BF8E285C3E470010A033 /* AppDelegate.swift in Sources */,
+				0631C00F285C609C0010A033 /* OnboardingSlide.swift in Sources */,
+				0631BF90285C3E470010A033 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BF9F285C3E4D0010A033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631BFA8285C3E4D0010A033 /* Customer_TaxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0631BFA9285C3E4D0010A033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0631BFB4285C3E4D0010A033 /* Customer_TaxiUITestsLaunchTests.swift in Sources */,
+				0631BFB2285C3E4D0010A033 /* Customer_TaxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0631BFA5285C3E4D0010A033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0631BF89285C3E470010A033 /* Customer-Taxi */;
+			targetProxy = 0631BFA4285C3E4D0010A033 /* PBXContainerItemProxy */;
+		};
+		0631BFAF285C3E4D0010A033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0631BF89285C3E470010A033 /* Customer-Taxi */;
+			targetProxy = 0631BFAE285C3E4D0010A033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0631BF93285C3E470010A033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0631BF94285C3E470010A033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0631BF9B285C3E4C0010A033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0631BF9C285C3E4C0010A033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0631BFB5285C3E4D0010A033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0631BFB6285C3E4D0010A033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0631BFB8285C3E4D0010A033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F38788F0733DA877EF7B15 /* Pods-Customer-Taxi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Customer-Taxi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0631BFB9285C3E4D0010A033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAFCE9DCC51CA9EB3A099F6 /* Pods-Customer-Taxi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Customer-Taxi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0631BFBB285C3E4D0010A033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE54AEE28752A4B62349DBD /* Pods-Customer-TaxiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Customer-Taxi.app/Customer-Taxi";
+			};
+			name = Debug;
+		};
+		0631BFBC285C3E4D0010A033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A035128D42FA20016DC9AA1 /* Pods-Customer-TaxiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Customer-Taxi.app/Customer-Taxi";
+			};
+			name = Release;
+		};
+		0631BFBE285C3E4D0010A033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FD05E29E93A7535200AE43 /* Pods-Customer-Taxi-Customer-TaxiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Customer-Taxi";
+			};
+			name = Debug;
+		};
+		0631BFBF285C3E4D0010A033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D67A1086800957BE960E11 /* Pods-Customer-Taxi-Customer-TaxiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PUMS8ZSNL9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Customer-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Customer-Taxi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0631BF85285C3E470010A033 /* Build configuration list for PBXProject "Customer-Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631BFB5285C3E4D0010A033 /* Debug */,
+				0631BFB6285C3E4D0010A033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0631BFB7285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631BFB8285C3E4D0010A033 /* Debug */,
+				0631BFB9285C3E4D0010A033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0631BFBA285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-TaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631BFBB285C3E4D0010A033 /* Debug */,
+				0631BFBC285C3E4D0010A033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0631BFBD285C3E4D0010A033 /* Build configuration list for PBXNativeTarget "Customer-TaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0631BFBE285C3E4D0010A033 /* Debug */,
+				0631BFBF285C3E4D0010A033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0631BFFF285C4B090010A033 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0631C000285C4B090010A033 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0631BFFF285C4B090010A033 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0631BF96285C3E470010A033 /* Customer_Taxi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0631BF97285C3E470010A033 /* Customer_Taxi.xcdatamodel */,
+			);
+			currentVersion = 0631BF97285C3E470010A033 /* Customer_Taxi.xcdatamodel */;
+			path = Customer_Taxi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0631BF82285C3E470010A033 /* Project object */;
+}
